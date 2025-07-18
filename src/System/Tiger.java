@@ -1,13 +1,14 @@
 package System;
 
-public abstract class Rodents extends Animals{
+public class Tiger extends Felines{
     @Override
     public double getDosage() {
-        return 0;
+        return super.getDosage();
     }
 
     @Override
     public String getFeedSchedule() {
-        return "";
+        return super.getFeedSchedule();
     }
+
 }

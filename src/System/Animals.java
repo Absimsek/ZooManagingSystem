@@ -1,14 +1,10 @@
 package System;
 
-public interface Animals {
-    //species name,
-    //
-    //weight,
-    //
-    //age, etc.
-    /*
-    obtain the dosage of certain medications for each animal => getDosage(),
+public abstract class Animals {
+    private String speciesName;
+    private int speciesAge;
+    private double speciesWeight;
 
-calculate feeding schedules => getFeedSchedule().
-     */
+    public abstract double getDosage();
+    public abstract String getFeedSchedule();
 }

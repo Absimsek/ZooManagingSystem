@@ -1,5 +1,14 @@
 package System;
 
-public interface Horses {
-    //Horses (horses, zebras, donkeys, etc.),
+public abstract class Horses extends Animals{
+    @Override
+    public String getFeedSchedule() {
+        return "";
+    }
+
+    @Override
+    public double getDosage() {
+        return 0;
+    }
+
 }

@@ -28,6 +28,8 @@ The logic for performing these functions will be different for each group. For e
 
 Using a polymorphism model, design a class diagram to handle the situation described above.
 
+## UML DIAGRAM
+![img_1.png](img_1.png)
 ## TÜRKÇE
 Bir hayvanat bahçesindeki hayvanlar hakkındaki bilgileri takip etmek için bir sistem tasarlıyorsunuz.
 
@@ -50,3 +52,5 @@ Sistem Yem verme zamanlarını hesaplayabilmelidir => getFeedSchedule ()
 Sistemin bu işlevleri yerine getirme mantığı, her gruplama için farklı olacaktır. Örneğin, atlar için yem verme algoritması farklı olup, kaplanlar için farklı olacaktır.
 
 Polimorfizm modelini kullanarak, yukarıda açıklanan durumu ele almak  için bir sınıf diyagramı tasarlayın.
+## UML DIAGRAM
+![img.png](img.png)

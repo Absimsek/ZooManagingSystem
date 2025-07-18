@@ -1,13 +1,13 @@
 package System;
 
-public abstract class Felines extends Animals{
+public class Donkeys extends Horses{
     @Override
     public String getFeedSchedule() {
-        return "";
+        return super.getFeedSchedule();
     }
 
     @Override
     public double getDosage() {
-        return 0;
+        return super.getDosage();
     }
 }
